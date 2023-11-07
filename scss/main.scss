@@ -1,0 +1,140 @@
+body {
+    font: 400 18px Inter, sans-serif; 
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+}
+
+.flex {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+// Header
+
+.header {
+    background: linear-gradient(180deg, #1c3db5 -16.72%, rgba(12, 32, 84, 0.00) 36.67%);
+    background-color: #15183f;
+    color: #fff;
+    padding: 10px 0;
+
+    &__logo {
+        max-width: 30%;
+    }
+
+    &__nav li:hover {
+        color: #757cdf;
+    }
+
+    &__nav li:active {
+        color: #3841bf;
+    }
+}
+
+// Main-page 
+
+.main-page {
+    padding: 50px 20px;
+    background: linear-gradient(180deg, #5773D8 -16.72%, rgba(12, 32, 84, 0.00) 36.67%);
+    background-color: #15183f;
+    border: 1px solid #dac9c9;
+    color: #fff;
+    height: 100vh;
+    
+
+    &__bk {
+        max-width: 60%;
+        border: 1px solid #fff;
+    }
+
+    &__title {
+        font-size: 35px;
+        width: 450px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        color: #cabdbd;
+    }
+}
+
+// Item-page
+
+.items-page {
+
+    padding: 100px 20px;
+
+    &__icon {
+        max-width: 30%;
+    }
+
+    &__img {
+        width: 250px;
+        height: 150px;
+    }
+
+    &__item {
+        padding: 10px 20px 30px 10px;
+        max-width: 30%;
+        border: 1px solid #15183f;
+        margin: 5px;
+    }
+
+    &__desc {
+        text-align: left;
+        max-width: 95%;
+    }
+
+    &__button {
+        padding: 10px 20px;
+        border: 1px solid #15183f;
+        margin: 20px 20px;
+    }
+
+    &__button:hover {
+        background-color: #8b9ee1;
+    }
+}
+
+// Footer
+
+.footer {
+    padding: 50px;
+    background: linear-gradient(180deg, #5773D8 -16.72%, rgba(12, 32, 84, 0.00) 36.67%);
+    background-color: #15183f;
+    &__nav {
+        color: #fff;   
+    }
+
+    &__nav li:hover {
+        color: #757cdf;
+    }
+}
+
+// Media
+
+@media (max-width: ) {
+    
+}
+
+
+
