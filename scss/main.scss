@@ -69,12 +69,12 @@ html, body {
     }
 
     &__title {
-        font-size: 35px;
+        font-size: calc(24px + 11 * (100vw / 970));
         width: 450px;
         margin-bottom: 20px;
     }
 
-    p {
+    & p {
         color: #cabdbd;
     }
 }
@@ -89,7 +89,7 @@ html, body {
         max-width: 30%;
     }
 
-    &__img {
+    & img {
         width: 250px;
         height: 150px;
     }
@@ -214,14 +214,27 @@ html, body {
             display: initial;
         }
 
+        &__title {
+            max-width: 95%;
+        }
+
         &__desc {
-            margin-top: 20px;
+            margin-top: 60px;
             display: inline-block;
             text-align: center;
-        }
-        
+            max-width: 60%;
+        }      
+    }
+
+    .footer ul {
+        display: none;
+    }
+
+    .items-page__item {
+        max-width: 100%;
     }
 }
+
 
 
 
