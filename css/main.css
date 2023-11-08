@@ -73,6 +73,8 @@ html, body {
 }
 .items-page__icon {
   max-width: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .items-page img {
   width: 250px;

@@ -87,6 +87,7 @@ html, body {
 
     &__icon {
         max-width: 30%;
+        object-fit: contain;
     }
 
     & img {
