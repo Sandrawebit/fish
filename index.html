@@ -10,8 +10,11 @@
 <body>
     <header class="header">
         <div class="container flex-box">
+            <button class="burger-btn" id="burger">
+                <span></span><span></span><span></span>
+            </button>
             <a href=""><img class="header__logo" src="img/logo.png" alt=""></a>
-            <nav class="header__nav">
+            <nav class="header__nav nav">
                 <ul class="flex-box">
                     <li><a href="#">Домой</a></li>
                     <li><a href="">Про нас</a></li>
@@ -19,17 +22,20 @@
                     <li><a href="">Сервисы</a></li>
                     <li><a href="">Блог</a></li>
                     <li><a href="">Контакты</a></li>
-                </ul>
+                </ul>  
             </nav>
+        </div>
     </header>
     <main class="main">
         <section class="main-page">
-            <div class="container flex-box">
-                <div>
+            <div class="container flex-box main-page__container">
+                <div class="main-page__desc">
                     <h1 class="main-page__title">Приветствуем!<br>Рады новым клиентам</h1>
                     <p>В нашем магазине для рыбок много интересного и вкусненького.</p>
                 </div>
-                <img class="main-page__bk" src="img/main-page-bk.jpg" alt="">
+                <div class="main-page__bk">
+                    <img  src="img/main-page-bk.jpg" alt="">
+                </div>   
             </div>
         </section>
         <!-- Items page -->
@@ -99,8 +105,8 @@
         </section> 
     </main>
     <footer class="footer">
-        <div class="container">
-            <nav class="footer__nav">
+        <nav class="footer__nav">
+            <div class="container">
                 <ul class="flex-box">
                     <li><a href="#">Домой</a></li>
                     <li><a href="">Про нас</a></li>
@@ -109,8 +115,8 @@
                     <li><a href="">Блог</a></li>
                     <li><a href="">Контакты</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </footer>
     <script src="js/script.js"></script>
 </body>
